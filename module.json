@@ -1,0 +1,19 @@
+{
+    "name": "Subscription",
+    "alias": "subscription",
+    "description": "Subscription module for EncoreCMS",
+    "keywords": [],
+    "version": "1.0.0",
+    "active": 1,
+    "priority": 1,
+    "providers": [
+        "Modules\\Subscription\\Providers\\SubscriptionServiceProvider",
+        "Modules\\Subscription\\Providers\\RouteServiceProvider"
+    ],
+    "aliases": {
+        "Product": "Modules\\Subscription\\Facades\\ProductFacade"
+    },
+    "files": [
+        "helpers.php"
+    ]
+}
